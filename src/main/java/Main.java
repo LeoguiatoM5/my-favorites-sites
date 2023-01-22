@@ -8,8 +8,10 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         List<Website> meusWebsites = new ArrayList<>();
-
+        System.out.println("Qual o nome do site: ");
         String nome = scanner.nextLine();
+
+        System.out.println("Qual o endereço do site: ");
         String url = scanner.nextLine();
 
         Website website = new Website();
